@@ -481,7 +481,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
 
   // --- Beds & Bedroom Furniture ---
   {
-    image: '/FinishedProducts/Bed1.png',
+    image: '/FinishedProducts/Bed1.webp',
     name: 'Modern Channel-Tufted Velvet King Platform Bed',
     category: 'Furniture Collections',
     material: 'Kiln-Dried Hardwood Frame, High-Density Foam & Premium Cream Velvet',
@@ -490,7 +490,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Contemporary low-profile king bed featuring vertical channel-tufted upholstered headboard, padded surround rails, and solid wood foundation engineered for zero squeak.',
   },
   {
-    image: '/FinishedProducts/Bed2.png',
+    image: '/FinishedProducts/Bed2.webp',
     name: 'Multifunctional Graphite Bed with Headboard Niches & Storage Drawers',
     category: 'Furniture Collections',
     material: 'High-Density Engineered Wood & Textured Graphite Melamine',
@@ -499,7 +499,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Contemporary storage bed equipped with an integrated headboard display shelf, decorative lattice inserts, ambient reading ledges, and dual underbed pull-out organizer drawers.',
   },
   {
-    image: '/FinishedProducts/Bed3.png',
+    image: '/FinishedProducts/Bed3.webp',
     name: 'Luxury Architectural Bed Suite with Fluted Acoustic Wall & Floating Nightstands',
     category: 'Furniture Collections',
     material: 'Solid Timber Sub-Frame, Fluted Acoustic Panels & Woven Fabric',
@@ -508,7 +508,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Master bedroom showcase bed featuring full-width vertical fluted charcoal wall cladding, diamond-quilted upholstered backrest, dual floating nightstands, and concealed base LED illumination.',
   },
   {
-    image: '/FinishedProducts/Bed4.png',
+    image: '/FinishedProducts/Bed4.webp',
     name: 'Teak Wood Arched Storage Bed with Hydraulic Lift Mechanism',
     category: 'Furniture Collections',
     material: 'Solid Teak Frame, BWR Plywood Box & German Hydraulic Pistons',
@@ -517,7 +517,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Ergonomic teak bed frame with arched padded headboard cushion, overhead display cubbies, and smooth heavy-duty gas-lift hydraulic storage underneath.',
   },
   {
-    image: '/FinishedProducts/Bed5.png',
+    image: '/FinishedProducts/Bed5.webp',
     name: 'Classic Handcrafted Solid Teak Sleigh Bed with Turned Finials',
     category: 'Furniture Collections',
     material: '100% Solid Seasoned Teak Wood with High-Gloss Lacquer',
@@ -528,7 +528,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
 
   // --- Chests, Drawers & Study Desks ---
   {
-    image: '/FinishedProducts/Drawer1.png',
+    image: '/FinishedProducts/Drawer1.webp',
     name: 'Scandinavian 6-Drawer Matte White Tallboy Dresser',
     category: 'Furniture Collections',
     material: 'High-Density HDF with Matte White PU Lacquer & Brushed Nickel Knobs',
@@ -537,7 +537,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Minimalist vertical chest of drawers featuring 6 smooth soft-closing drawers on telescopic ball-bearing slides, clean flush edges, and satin nickel circular pulls.',
   },
   {
-    image: '/FinishedProducts/Drawer2.png',
+    image: '/FinishedProducts/Drawer2.webp',
     name: 'Walnut Sideboard Credenza with Laser-Cut Lattice Accent Doors',
     category: 'Furniture Collections',
     material: 'Solid American Walnut, Engineered Core & Brushed Chrome Handles',
@@ -546,7 +546,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Contemporary low credenza sideboard featuring 3 central organizer drawers flanked by two side storage cabinets with organic laser-cut geometric jali ventilation doors.',
   },
   {
-    image: '/FinishedProducts/Drawer3.png',
+    image: '/FinishedProducts/Drawer3.webp',
     name: 'Heritage 5-Drawer Solid Natural Cherry Wood Chest',
     category: 'Furniture Collections',
     material: 'Solid American Cherry Hardwood with Satin Clear Polyurethane',
@@ -555,7 +555,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Classic American craftsman-style tall dresser showcasing continuous grain wood matching, dovetail drawer joinery, dual metal knob pulls per drawer, and sturdy block feet.',
   },
   {
-    image: '/FinishedProducts/Drawer4.png',
+    image: '/FinishedProducts/Drawer4.webp',
     name: 'Executive Double-Pedestal Teak Study & Workstation Desk',
     category: 'Furniture Collections',
     material: 'Calibrated Plywood with Natural Teak Veneer & Central Locking Hardware',
@@ -566,7 +566,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
 
   // --- Display Shelves & Crockery Cabinets ---
   {
-    image: '/FinishedProducts/Shelf1.png',
+    image: '/FinishedProducts/Shelf1.webp',
     name: 'Cathedral 3-Door Solid Wood Crockery & Curio Showcase',
     category: 'Furniture Collections',
     material: 'Solid Mahogany Wood, 6mm Toughened Glass & Brass Accents',
@@ -575,7 +575,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Grand traditional curio cabinet with gothic arched glazed mullion doors, 4 tiers of heavy-load glass display shelves, 3 base cutlery drawers, and rich crown molding.',
   },
   {
-    image: '/FinishedProducts/Shelf2.png',
+    image: '/FinishedProducts/Shelf2.webp',
     name: 'Nordic Dining Hutch & Crockery Unit with Counter Niche',
     category: 'Furniture Collections',
     material: 'Solid Teak Wood, BWR Plywood Core & Matte Black Hardware',
@@ -584,7 +584,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Modern kitchen/dining hutch with glass display upper cabinets, intermediate appliance/serving buffet counter, 3 central flatware drawers, and spacious base cabinetry.',
   },
   {
-    image: '/FinishedProducts/Shelf3.png',
+    image: '/FinishedProducts/Shelf3.webp',
     name: 'Contemporary Espresso Buffet Bar & Glassware Showcase',
     category: 'Furniture Collections',
     material: 'Engineered Hardwood with Dark Espresso Finish & Frosted Fluted Glass',
@@ -595,7 +595,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
 
   // --- TV Wall Units & Entertainment Centers ---
   {
-    image: '/FinishedProducts/TvWallUnit1.png',
+    image: '/FinishedProducts/TvWallUnit1.webp',
     name: 'Classic Ivory Entertainment Console with Wainscoting Backboard',
     category: 'Furniture Collections',
     material: 'Solid Hardwood Frame & Moisture-Resistant HDF with Ivory PU Enamel',
@@ -604,7 +604,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Refined cottage-style media console with arched media component bay, cable management ports, side cabinets, center drawer, framed against geometric wainscoting accent paneling.',
   },
   {
-    image: '/FinishedProducts/TvWallUnit2.png',
+    image: '/FinishedProducts/TvWallUnit2.webp',
     name: 'Minimalist Espresso & Gloss White Lowline TV Unit',
     category: 'Furniture Collections',
     material: 'High-Density Particle Board with Dark Espresso & High-Gloss White Acrylic',
@@ -613,7 +613,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Sleek two-tone low-profile media credenza featuring an upper open soundbar/console deck and dual deep lockable storage drawers with chrome pulls.',
   },
   {
-    image: '/FinishedProducts/TvWallUnit3.png',
+    image: '/FinishedProducts/TvWallUnit3.webp',
     name: 'Architectural Fluted TV Wall Paneling with Illuminated Floating Shelves',
     category: 'Furniture Collections',
     material: 'Natural Teak Veneer, Acoustic Charcoal Slats & Tempered Tinted Glass',
@@ -622,7 +622,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Modern entertainment wall panel system with vertical fluted charcoal acoustic slats, floating display ledges with integrated warm spotlights, and a 4-bay lower credenza.',
   },
   {
-    image: '/FinishedProducts/TvWalUnit4.png',
+    image: '/FinishedProducts/TvWalUnit4.webp',
     name: 'Grand Full-Wall Entertainment Center with Illuminated Curio Glass Towers',
     category: 'Furniture Collections',
     material: 'Engineered Board in Charcoal & Warm Ochre with Profile Warm LED Strips',
@@ -631,7 +631,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Luxury wall-to-wall entertainment suite flanked by illuminated glass display vitrines, fluted timber TV backboard, perimeter indirect LED glow, and modular base storage cabinets.',
   },
   {
-    image: '/FinishedProducts/TvWallUnit5.png',
+    image: '/FinishedProducts/TvWallUnit5.webp',
     name: 'Double-Sided Room Divider Bookcase & TV Media Wall Unit',
     category: 'Furniture Collections',
     material: 'Solid Core Plywood with Dark Walnut Veneer & Terracotta Accents',
@@ -642,7 +642,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
 
   // --- Dining Sets ---
   {
-    image: '/FinishedProducts/diningset1.png',
+    image: '/FinishedProducts/diningset1.webp',
     name: 'Italian Marble-Top 4-Seater Teak Dining Suite with Leaf-Cut Chairs',
     category: 'Furniture Collections',
     material: 'Solid Teak Wood Frame, Composite Carrara Marble & Leatherette Upholstery',
@@ -651,7 +651,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Contemporary dining ensemble pairing a stain-resistant white Italian marble tabletop with 4 solid teak chairs featuring sculpted leaf backrest cutouts and padded leatherette seats.',
   },
   {
-    image: '/FinishedProducts/diningset2.png',
+    image: '/FinishedProducts/diningset2.webp',
     name: 'Space-Saving 6-Seater Compact Nesting Teak Dining Set',
     category: 'Furniture Collections',
     material: 'Solid Teak Wood & 10mm Black Beveled Tempered Glass',
@@ -660,7 +660,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Intelligently engineered space-saving dining table with sleek black tempered glass top and 6 slatted cube chairs that tuck completely flush beneath the table perimeter when not in use.',
   },
   {
-    image: '/FinishedProducts/diningset3.png',
+    image: '/FinishedProducts/diningset3.webp',
     name: 'Farmhouse X-Trestle Solid Wood 6-Seater Dining Set',
     category: 'Furniture Collections',
     material: 'Solid Seasoned Sheesham / Hardwood with Woven Grey Linen Fabric',
@@ -669,7 +669,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Rustic modern dining table with heavy-duty X-trestle timber base, planked top, and 6 matching dining chairs with ergonomic fan-motif cutouts and padded fabric seats.',
   },
   {
-    image: '/FinishedProducts/diningset4.png',
+    image: '/FinishedProducts/diningset4.webp',
     name: 'Modern Circular Smoked-Glass 4-Seater Dining Set with Barrel Chairs',
     category: 'Furniture Collections',
     material: 'Dark Wenge Finished Hardwood, Smoked Tempered Glass & Cream Cushions',
@@ -678,7 +678,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Contemporary 4-seater round dining table with smoked tempered glass top, cross-strut hardwood base, and 4 curved vertical-spindle barrel chairs with flush-tuck contours.',
   },
   {
-    image: '/FinishedProducts/diningset5.png',
+    image: '/FinishedProducts/diningset5.webp',
     name: 'Artisan Lattice-Back 6-Seater Solid Teak Dining Set',
     category: 'Furniture Collections',
     material: '100% Solid Plantation Teak Wood with Natural Oil Sealer',
@@ -689,7 +689,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
 
   // --- Dressing Mirrors & Vanity Units ---
   {
-    image: '/FinishedProducts/mirror1.png',
+    image: '/FinishedProducts/mirror1.webp',
     name: 'Tall Radial Corner Dressing Vanity with Illuminated Mirror & Open Shelves',
     category: 'Furniture Collections',
     material: 'Teak Wood Veneer, Hardwood Sub-Frame & Warm LED Canopy Spot',
@@ -698,7 +698,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Space-efficient corner dressing vanity featuring a full-length beveled mirror, illuminated canopy spotlight, lockable cosmetic drawer, storage cabinet, and 5-tier curved display shelves.',
   },
   {
-    image: '/FinishedProducts/mirror2.png',
+    image: '/FinishedProducts/mirror2.webp',
     name: 'Traditional Arched Vanity Dresser with Backlit Floral Jali Cabinet',
     category: 'Furniture Collections',
     material: 'Seasoned Hardwood in Dark Mahogany Finish & Backlit Laser-Cut Acrylic',
@@ -709,7 +709,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
 
   // --- Pooja Mandirs & Prayer Cabinets ---
   {
-    image: '/FinishedProducts/pooja1.png',
+    image: '/FinishedProducts/pooja1.webp',
     name: 'Traditional Solid Teak Pooja Mandir with Om-Swastik Motif & Brass Bells',
     category: 'Furniture Collections',
     material: '100% Solid Seasoned Teak Wood & Cast Solid Brass Temple Bells',
@@ -718,7 +718,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Sacred home prayer cabinet with stepped Shikhara dome and kalash finial, laser-cut Om & Swastik solar medallion doors, integrated diya cutouts, and hanging authentic brass temple bells.',
   },
   {
-    image: '/FinishedProducts/pooja2.png',
+    image: '/FinishedProducts/pooja2.webp',
     name: 'Luxury Walnut & Honey Teak Pooja Mandir with Backlit Peacock Feather',
     category: 'Furniture Collections',
     material: 'High-Density HDHMR, Teak Veneer, Concealed Warm LED & Solid Brass',
@@ -727,7 +727,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Grand double-door prayer mandir featuring stepped temple dome, illuminated laser-cut peacock feather backboard, lotus jali bi-fold doors, stepped deity pedestals, and lower storage cabinet with drawers.',
   },
   {
-    image: '/FinishedProducts/pooja3.png',
+    image: '/FinishedProducts/pooja3.webp',
     name: 'Royal Pearl White & Gold Gopuram Pooja Mandir with Ganesha Motif',
     category: 'Furniture Collections',
     material: 'High-Grade HDF with Pearl White PU Lacquer, Teak Insets & Brass Handles',
@@ -738,7 +738,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
 
   // --- Sofa Sets & Living Seating ---
   {
-    image: '/FinishedProducts/sofaset1.png',
+    image: '/FinishedProducts/sofaset1.webp',
     name: 'Outdoor & Indoor Solid Teak Garden Bench with Diamond Lattice Back',
     category: 'Furniture Collections',
     material: '100% Plantation Grade-A Teak Wood with Weather-Resistant Sealer',
@@ -747,7 +747,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Handcrafted 3-seater solid teak bench featuring decorative diamond lattice backrest, slatted ergonomic seat, and wide comfort armrests ideal for indoor foyers or covered verandahs.',
   },
   {
-    image: '/FinishedProducts/sofaset2.png',
+    image: '/FinishedProducts/sofaset2.webp',
     name: 'Ultra-Plush Ergonomic 3+1+1 Recliner-Style Micro-Velvet Living Room Suite',
     category: 'Furniture Collections',
     material: 'Treated Hardwood Frame, 32-Density High Resilience Foam & Sand Velvet',
@@ -756,7 +756,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Luxury contemporary 5-seater living room sofa set with pillow-top padded roll armrests, multi-tier ergonomic lumbar backrests, and stain-resistant sand-beige micro-velvet upholstery.',
   },
   {
-    image: '/FinishedProducts/sofaset3.png',
+    image: '/FinishedProducts/sofaset3.webp',
     name: 'Colonial Heritage 3+1+1 Solid Wood Sofa Set with Wagon Wheel Arms',
     category: 'Furniture Collections',
     material: 'Seasoned Solid Teak Wood & Textured Fluted Chenille Velvet',
@@ -765,7 +765,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Traditional solid wood living room suite featuring handcrafted wagon-wheel armrest carvings, turned baluster bun feet, and vertical channeled cushion backrests in warm taupe.',
   },
   {
-    image: '/FinishedProducts/sofaset4.png',
+    image: '/FinishedProducts/sofaset4.webp',
     name: 'Royal Hand-Carved Teak 3+1+1 Living Room Sofa Suite with Floral Crest',
     category: 'Furniture Collections',
     material: 'Solid Carved Teak Wood Frame, High-Resilience Foam & Cream Fabric',
@@ -836,7 +836,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
 ]
 
 export const TESTIMONIALS = [
- 
+
 ]
 
 export const MISSION_POINTS = [
