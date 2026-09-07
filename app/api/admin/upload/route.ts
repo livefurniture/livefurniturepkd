@@ -1,34 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { adminAuth } from '@/lib/firebase-admin'
+import { verifyAdminAuth } from '@/lib/server-auth'
 import { cloudinary, CLOUDINARY_FOLDER } from '@/lib/cloudinary'
 
+export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
 
 const MAX_FILE_SIZE = 4.5 * 1024 * 1024 // 4.5 MB
 const ALLOWED_MIME_TYPES = ['image/jpeg', 'image/png', 'image/webp', 'image/avif', 'image/jpg']
-
-async function verifyAdminAuth(req: NextRequest): Promise<{ authorized: boolean; error?: string; status?: number }> {
-  const authHeader = req.headers.get('authorization')
-  if (!authHeader || !authHeader.startsWith('Bearer ')) {
-    return { authorized: false, error: 'Missing or malformed Authorization header.', status: 401 }
-  }
-
-  const token = authHeader.split('Bearer ')[1]?.trim()
-  if (!token) {
-    return { authorized: false, error: 'Empty bearer token provided.', status: 401 }
-  }
-
-  try {
-    const decodedToken = await adminAuth.verifyIdToken(token)
-    if (decodedToken.admin !== true) {
-      return { authorized: false, error: 'Forbidden: Administrator privileges required.', status: 403 }
-    }
-    return { authorized: true }
-  } catch (err: any) {
-    console.error('Firebase token verification error in /api/admin/upload:', err?.message || err)
-    return { authorized: false, error: 'Invalid or expired authentication token.', status: 401 }
-  }
-}
 
 export async function POST(req: NextRequest) {
   try {
