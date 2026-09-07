@@ -319,7 +319,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   // 1. Manufacturing Facility (Includes img0, img1, img2, img6, img7, img9)
   // ==========================================
   {
-    image: '/factoryImages/img0.jpeg',
+    image: '/factoryImages/img0.webp',
     name: 'Live Furniture Industrial Complex & Main Plant',
     category: 'Factory Images',
     material: 'Industrial Infrastructure & Corporate Facility',
@@ -327,7 +327,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     description: 'Main industrial manufacturing plant entrance and multi-acre production facility engineered for precision automated woodworking and multi-state B2B dispatches.',
   },
   {
-    image: '/factoryImages/img1.png',
+    image: '/factoryImages/img1.webp',
     name: 'In-House Wood Chemical Treatment & Resin Plant',
     category: 'Manufacturing Facility',
     material: 'Stainless Steel Chemical Tanks & Automated Piping',
@@ -335,7 +335,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     description: 'In-house automated chemical treatment reactors and resin preparation tanks ensuring complete anti-termite, anti-borer protection and fiber stabilization.',
   },
   {
-    image: '/factoryImages/img2.png',
+    image: '/factoryImages/img2.webp',
     name: 'Industrial Timber Kiln Seasoning Chambers',
     category: 'Manufacturing Facility',
     material: 'Kiln-Dried Solid Timber & Computerized Kilns',
@@ -343,7 +343,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     description: 'Industrial wood seasoning kilns maintaining strict core moisture equilibrium to eliminate warping, shrinking, and seasonal timber movement.',
   },
   {
-    image: '/factoryImages/img6.png',
+    image: '/factoryImages/img6.webp',
     name: 'Enclosed Positive-Pressure Paint & Curing Booth',
     category: 'Manufacturing Facility',
     material: 'Positive-Pressure Air Filtration Unit',
@@ -351,7 +351,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     description: 'Enclosed industrial spray booth ensuring micro-filtered, dust-free surface sealing, high-gloss PU finishes, and zero particle contamination on panels.',
   },
   {
-    image: '/factoryImages/img7.png',
+    image: '/factoryImages/img7.webp',
     name: 'Climate-Controlled Lacquer Curing & Drying Chamber',
     category: 'Manufacturing Facility',
     material: 'Multi-Tier Mobile Drying Racks',
@@ -359,7 +359,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     description: 'Dedicated temperature-regulated drying room with multi-tier mobile rack systems for uniform sealer and lacquer hardening.',
   },
   {
-    image: '/factoryImages/img9.png',
+    image: '/factoryImages/img9.webp',
     name: 'Heavy Palletization & Container Dispatch Logistics',
     category: 'Manufacturing Facility',
     material: 'Industrial Stretch Wrap & Container Fleet',
@@ -387,7 +387,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   // 2. Factory Images (Includes img3, img4, img5, img8)
   // ==========================================
   {
-    image: '/factoryImages/img3.png',
+    image: '/factoryImages/img3.webp',
     name: 'Precision Sliding Table Panel Sizing & Cutting',
     category: 'Factory Images',
     material: 'Industrial Sliding Saws & Extraction Ducts',
@@ -395,7 +395,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     description: 'Trained technicians operating sliding table saws with central dust extraction for sub-millimeter timber and panel cutting accuracy.',
   },
   {
-    image: '/factoryImages/img4.png',
+    image: '/factoryImages/img4.webp',
     name: 'Solid Wood Cabinetry & Modular Box Assembly',
     category: 'Factory Images',
     material: 'Seasoned Solid Hardwood & Pneumatic Fastening',
@@ -403,7 +403,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     description: 'Skilled craftsmen assembling heavy-duty solid wood storage boxes and modular cabinetry with reinforced mechanical joinery.',
   },
   {
-    image: '/factoryImages/img5.png',
+    image: '/factoryImages/img5.webp',
     name: 'Positive-Pressure PU Sealer Spray Bay',
     category: 'Factory Images',
     material: 'Dust-Free Polyurethane / NC Lacquer',
@@ -411,7 +411,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     description: 'Specialist craftsman applying precision PU sealant coats in a micro-filtered clean-air environment for an ultra-smooth finish.',
   },
   {
-    image: '/factoryImages/img8.png',
+    image: '/factoryImages/img8.webp',
     name: 'Multi-Point Quality Assurance & Surface Inspection',
     category: 'Factory Images',
     material: 'Solid Wood Sideboards & Dressers',
@@ -423,7 +423,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   // 3. Machinery
   // ==========================================
   {
-    image: '/factoryImages/img3.png',
+    image: '/factoryImages/img3.webp',
     name: 'Heavy-Duty Industrial Sliding Table Panel Saw',
     category: 'Machinery',
     material: 'Tungsten Carbide Tipped Sizing Blades',
@@ -439,7 +439,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     description: 'High-speed automated CNC routing for intricate cabinet panels, groove cuts, and wire channel conduits.',
   },
   {
-    image: '/factoryImages/img2.png',
+    image: '/factoryImages/img2.webp',
     name: 'Kiln-Seasoned Bulk Timber Conditioning Chambers',
     category: 'Machinery',
     material: 'Automated Heat & Humidity Regulators',
