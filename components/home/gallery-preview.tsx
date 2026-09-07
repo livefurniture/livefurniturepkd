@@ -5,9 +5,9 @@ import { SectionHeading } from '@/components/section-heading'
 import { Reveal } from '@/components/reveal'
 
 const IMAGES = [
-  { src: '/factoryImages/img0.jpeg', span: 'lg:col-span-2 lg:row-span-2', alt: 'Live Furniture Industrial Facility' },
-  { src: '/factoryImages/img4.png', span: '', alt: 'Solid wood joinery & box assembly' },
-  { src: '/factoryImages/img5.png', span: '', alt: 'Clean-air PU finishing bay' },
+  { src: '/factoryImages/img0.webp', span: 'lg:col-span-2 lg:row-span-2', alt: 'Live Furniture Industrial Facility' },
+  { src: '/factoryImages/img4.webp', span: '', alt: 'Solid wood joinery & box assembly' },
+  { src: '/factoryImages/img5.webp', span: '', alt: 'Clean-air PU finishing bay' },
   { src: '/live/hero_solid_wood.png', span: 'lg:col-span-2', alt: 'Solid wood collection' },
 ]
 
