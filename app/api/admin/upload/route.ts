@@ -31,17 +31,39 @@ async function verifyAdminAuth(req: NextRequest): Promise<{ authorized: boolean;
 }
 
 export async function POST(req: NextRequest) {
-  // 1. Authoritative Firebase ID token and custom claim verification
-  const authCheck = await verifyAdminAuth(req)
-  if (!authCheck.authorized) {
-    return NextResponse.json({ error: authCheck.error }, { status: authCheck.status || 401 })
-  }
-
-  // 2. Parse and validate multipart form-data
   try {
-    const formData = await req.formData()
-    const file = formData.get('file')
+    // 1. Authoritative Firebase ID token and custom claim verification
+    const authCheck = await verifyAdminAuth(req)
+    if (!authCheck.authorized) {
+      return NextResponse.json({ error: authCheck.error || 'Unauthorized' }, { status: authCheck.status || 401 })
+    }
 
+    // 2. Validate Cloudinary server-side credentials
+    const cloudName = process.env.CLOUDINARY_CLOUD_NAME || process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME
+    const apiKey = process.env.CLOUDINARY_API_KEY
+    const apiSecret = process.env.CLOUDINARY_API_SECRET
+
+    if (!cloudName || !apiKey || !apiSecret) {
+      console.error('Cloudinary server configuration missing required environment variables.')
+      return NextResponse.json(
+        { error: 'Server configuration error: Cloudinary credentials are not properly configured on the server.' },
+        { status: 500 }
+      )
+    }
+
+    // 3. Parse and validate multipart form-data
+    let formData: FormData
+    try {
+      formData = await req.formData()
+    } catch (parseErr: any) {
+      console.error('Failed to parse multipart form data in /api/admin/upload:', parseErr?.message || parseErr)
+      return NextResponse.json(
+        { error: 'Bad Request: Invalid multipart form payload.' },
+        { status: 400 }
+      )
+    }
+
+    const file = formData.get('file')
     if (!file || !(file instanceof File)) {
       return NextResponse.json(
         { error: 'Bad Request: Missing image file in multipart field "file".' },
@@ -49,7 +71,7 @@ export async function POST(req: NextRequest) {
       )
     }
 
-    // 3. Size validation (max 4.5MB)
+    // 4. Size validation (max 4.5MB)
     if (file.size > MAX_FILE_SIZE) {
       return NextResponse.json(
         { error: `Payload Too Large: File size exceeds the maximum limit of ${MAX_FILE_SIZE / (1024 * 1024)}MB.` },
@@ -57,7 +79,7 @@ export async function POST(req: NextRequest) {
       )
     }
 
-    // 4. MIME type validation
+    // 5. MIME type validation
     const mimeType = file.type.toLowerCase()
     if (!ALLOWED_MIME_TYPES.includes(mimeType)) {
       return NextResponse.json(
@@ -66,7 +88,7 @@ export async function POST(req: NextRequest) {
       )
     }
 
-    // 5. Convert file buffer and stream to Cloudinary
+    // 6. Convert file buffer and stream to Cloudinary
     const bytes = await file.arrayBuffer()
     const buffer = Buffer.from(bytes)
 
@@ -89,7 +111,7 @@ export async function POST(req: NextRequest) {
       uploadStream.end(buffer)
     })
 
-    // 6. Return secure URL and public ID
+    // 7. Return secure URL and public ID
     return NextResponse.json(
       {
         imageUrl: uploadResult.secure_url,
@@ -100,7 +122,7 @@ export async function POST(req: NextRequest) {
   } catch (err: any) {
     console.error('Server upload error in /api/admin/upload:', err?.message || err)
     return NextResponse.json(
-      { error: 'Internal Server Error: Failed to process image upload.' },
+      { error: err?.message ? `Failed to process image upload: ${err.message}` : 'Internal Server Error: Failed to process image upload.' },
       { status: 500 }
     )
   }
