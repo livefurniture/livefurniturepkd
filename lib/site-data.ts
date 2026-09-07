@@ -452,7 +452,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   // ==========================================
   // --- Wardrobes & Almirahs ---
   {
-    image: '/FinishedProducts/Almirah1.png',
+    image: '/FinishedProducts/Almirah1.webp',
     name: 'Fluted Quad-Door Contemporary Wardrobe with Dressing Mirror',
     category: 'Furniture Collections',
     material: 'Moisture-Resistant Calibrated Plywood & Matte Slate Laminate',
@@ -461,7 +461,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Modern 4-door wardrobe featuring vertical fluted paneling, full-length center dressing mirror with valet hanging rod, sleek gold handles, and optimized multi-compartment interior storage.',
   },
   {
-    image: '/FinishedProducts/Almirah2.png',
+    image: '/FinishedProducts/Almirah2.webp',
     name: 'Dual-Tone Teak & Walnut Wardrobe with Built-In Vanity Niche',
     category: 'Furniture Collections',
     material: 'BWR Grade Plywood with Natural Teak Veneer & PU Polish',
@@ -470,7 +470,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       'Architectural wardrobe ensemble with contrasting dark walnut and golden teak finishes, illuminated vanity dressing niche, soft-close organizer drawers, and full-height loft cabinets.',
   },
   {
-    image: '/FinishedProducts/Amirah3.png',
+    image: '/FinishedProducts/Almirah3.webp',
     name: 'Heritage Carved Solid Teak Wardrobe & Armoire',
     category: 'Furniture Collections',
     material: '100% Solid Plantation Teak Wood & Antique Brass Hardware',
