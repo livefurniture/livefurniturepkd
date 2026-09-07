@@ -182,6 +182,17 @@ export default function AboutPage() {
                         IMA USA &amp; ICWAI (Cost &amp; Management Accountants)
                       </p>
                     </div>
+                    <div className="rounded-2xl border border-border bg-card/90 p-4 shadow-xs">
+                      <div className="flex items-center gap-2">
+                        <span className="inline-block h-2 w-2 rounded-full bg-emerald-500" />
+                        <h4 className="font-semibold text-foreground text-sm">
+                          M.Com &amp; CA (Inter)
+                        </h4>
+                      </div>
+                      <p className="mt-1 text-xs text-muted-foreground pl-4">
+                        Master of Commerce &amp; Chartered Accountancy Intermediate
+                      </p>
+                    </div>
 
                     <div className="rounded-2xl border border-border bg-card/90 p-4 shadow-xs">
                       <div className="flex items-center gap-2">
@@ -195,17 +206,7 @@ export default function AboutPage() {
                       </p>
                     </div>
 
-                    <div className="rounded-2xl border border-border bg-card/90 p-4 shadow-xs">
-                      <div className="flex items-center gap-2">
-                        <span className="inline-block h-2 w-2 rounded-full bg-emerald-500" />
-                        <h4 className="font-semibold text-foreground text-sm">
-                          M.Com &amp; CA (Inter)
-                        </h4>
-                      </div>
-                      <p className="mt-1 text-xs text-muted-foreground pl-4">
-                        Master of Commerce &amp; Chartered Accountancy Intermediate
-                      </p>
-                    </div>
+                    
                   </div>
                 </div>
               </Reveal>
@@ -411,10 +412,10 @@ export default function AboutPage() {
                 <div className="lg:col-span-8 grid gap-4 sm:grid-cols-2">
                   <div className="rounded-2xl border border-primary/20 bg-primary/5 p-5">
                     <h4 className="font-serif text-base font-bold text-foreground">
-                      Kerala &ldquo;Missing 1000&rdquo; Selection
+                      Kerala &ldquo;Mission 1000&rdquo; Selection
                     </h4>
                     <p className="mt-1.5 text-xs leading-relaxed text-muted-foreground">
-                      Selected under the Government of Kerala&apos;s prestigious Missing 1000 initiative recognizing high-growth industrial manufacturing units.
+                      Selected under the Government of Kerala&apos;s prestigious Mission 1000 initiative recognizing high-growth industrial manufacturing units.
                     </p>
                   </div>
 
